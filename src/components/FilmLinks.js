@@ -4,9 +4,9 @@ class FilmLinks extends Component {
   render (){
     return(
       <Fragment>
-        <h3>
+        <li>
         <a href={this.props.url}>{this.props.name}</a>
-        </h3>
+        </li>
       </Fragment>
     )
   }

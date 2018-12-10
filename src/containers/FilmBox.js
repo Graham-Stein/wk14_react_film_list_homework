@@ -9,7 +9,7 @@ class FilmBox extends Component {
   render(){
     return(
       <div>
-      'Upcoming Film Releases for UK'
+      <h1>Upcoming Film Releases for UK</h1>
       < FilmList data = {this.state}/>
       <h1>
        <a href={imdbURL}> View More Upcoming Releases</a>

@@ -11,9 +11,13 @@ class FilmList extends Component {
       />
     });
 
+    console.log(filmNodes);
+
     return (
       <div className="film-list">
+      <ul>
         {filmNodes}
+      </ul>
       </div>
     )
   }
